@@ -20,12 +20,12 @@
 
 /* Begin PBXBuildFile section */
 		3FB74EAC1870B3C28621FF479EB92353 /* audioplayers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B4E955BE3BB90B433754FC84492135 /* audioplayers-dummy.m */; };
-		5E15284A92E9E0A41D41E9D974C9EF87 /* PathProviderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B4A3FD7E7F0E45965C46DC32ED1B5B /* PathProviderPlugin.m */; };
-		6495E5176AE95CB7C644FFAE412402E0 /* AudioplayersPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6B6C1D357A0127FC043B8F902161C1 /* AudioplayersPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		68AACF3918EA8FFAAC9DCB801C85DEF7 /* AudioplayersPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FA27928BEC18C36B39FB600D0B80353F /* AudioplayersPlugin.m */; };
+		5E15284A92E9E0A41D41E9D974C9EF87 /* PathProviderPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EC84A71AF364790BD577F223B19DF /* PathProviderPlugin.m */; };
+		6495E5176AE95CB7C644FFAE412402E0 /* AudioplayersPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B96DE1B75CDFEA8617E37CF1BB3231 /* AudioplayersPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68AACF3918EA8FFAAC9DCB801C85DEF7 /* AudioplayersPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786F86DD517221DE95B5254AE85A33 /* AudioplayersPlugin.m */; };
 		91CE4D4079A1533C09BA818CF37DFF4C /* path_provider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C18A7094E62B6A96A94970B6754C59 /* path_provider-dummy.m */; };
 		B581867113A9098FF5BF9FCA3449313E /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */; };
-		CC62E6094C15AA66954E84E66B45F3D1 /* PathProviderPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C815C7298F9DDAF83B71B63E1B8444 /* PathProviderPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC62E6094C15AA66954E84E66B45F3D1 /* PathProviderPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 67498A8141748C192BCD93BDD26F99F2 /* PathProviderPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +67,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C815C7298F9DDAF83B71B63E1B8444 /* PathProviderPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PathProviderPlugin.h; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/ios/Classes/PathProviderPlugin.h"; sourceTree = "<group>"; };
 		0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
 		0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		22B96DE1B75CDFEA8617E37CF1BB3231 /* AudioplayersPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioplayersPlugin.h; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/ios/Classes/AudioplayersPlugin.h"; sourceTree = "<group>"; };
 		34E4587906A2A90AB463DD3722BC81CF /* audioplayers.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = audioplayers.podspec; path = "../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/ios/audioplayers.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51B4E955BE3BB90B433754FC84492135 /* audioplayers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "audioplayers-dummy.m"; sourceTree = "<group>"; };
 		57C18A7094E62B6A96A94970B6754C59 /* path_provider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "path_provider-dummy.m"; sourceTree = "<group>"; };
@@ -77,12 +77,12 @@
 		601A248C880CE220E47DB9DE59772331 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE.md; path = "../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/LICENSE.md"; sourceTree = "<group>"; };
 		631F81EA3C6809E2FB28D49A1E03CC8F /* audioplayers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = audioplayers.xcconfig; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67498A8141748C192BCD93BDD26F99F2 /* PathProviderPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PathProviderPlugin.h; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/ios/Classes/PathProviderPlugin.h"; sourceTree = "<group>"; };
 		85F6634C6DAE57813EF51791B2B89269 /* path_provider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider-prefix.pch"; sourceTree = "<group>"; };
 		8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
 		90D9260CE3287DCFD2AFC5101C227D8F /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../development/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
 		93D1365CBE34F15CCCAB8776EF13E3C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/LICENSE"; sourceTree = "<group>"; };
 		9570AC197CEB8DB9AE5539A19C8BFD32 /* path_provider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider.xcconfig; sourceTree = "<group>"; };
-		97B4A3FD7E7F0E45965C46DC32ED1B5B /* PathProviderPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PathProviderPlugin.m; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/ios/Classes/PathProviderPlugin.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4C1625B151F3BAF1B34C2A05131C56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../development/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
 		AD038D86DEF3943531F2A6559BB49AB1 /* libaudioplayers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libaudioplayers.a; path = libaudioplayers.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,9 +92,9 @@
 		DAE35F9EEF7110C6DC7645F4C250E0F5 /* libpath_provider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libpath_provider.a; path = libpath_provider.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		EB8EC84A71AF364790BD577F223B19DF /* PathProviderPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PathProviderPlugin.m; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/ios/Classes/PathProviderPlugin.m"; sourceTree = "<group>"; };
 		ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED6B6C1D357A0127FC043B8F902161C1 /* AudioplayersPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioplayersPlugin.h; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/ios/Classes/AudioplayersPlugin.h"; sourceTree = "<group>"; };
-		FA27928BEC18C36B39FB600D0B80353F /* AudioplayersPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AudioplayersPlugin.m; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/ios/Classes/AudioplayersPlugin.m"; sourceTree = "<group>"; };
+		F4786F86DD517221DE95B5254AE85A33 /* AudioplayersPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AudioplayersPlugin.m; path = "../../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-0.13.1/ios/Classes/AudioplayersPlugin.m"; sourceTree = "<group>"; };
 		FF310825347C486B5DB57CE3DE703884 /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,15 +132,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		069DBF672DAA665D908894E95E9AD56A /* path_provider */ = {
-			isa = PBXGroup;
-			children = (
-				E67F6AA4EE0CEE067D63908736A89E76 /* ios */,
-			);
-			name = path_provider;
-			path = path_provider;
-			sourceTree = "<group>";
-		};
 		0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,31 +147,23 @@
 			path = "Target Support Files/Pods-Runner";
 			sourceTree = "<group>";
 		};
-		0E9D30DF2B41CDE3ABBD02043F70D853 /* .symlinks */ = {
+		0E5ABFF4A5C32036B9297FA1C4C6FC50 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9B97FA762BA6C812CF069977E100C190 /* plugins */,
+				67498A8141748C192BCD93BDD26F99F2 /* PathProviderPlugin.h */,
+				EB8EC84A71AF364790BD577F223B19DF /* PathProviderPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		13A73D3E1D59850694EC59CD6F4418E4 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				EED498E85E639A3E4780DEEEDB8757CE /* plugins */,
 			);
 			name = .symlinks;
 			path = .symlinks;
-			sourceTree = "<group>";
-		};
-		0EBF2C38205DCB70AE67D98CE35210BF /* langaw */ = {
-			isa = PBXGroup;
-			children = (
-				D6A704E7967AE91FFE80B8711260320C /* ios */,
-			);
-			name = langaw;
-			path = langaw;
-			sourceTree = "<group>";
-		};
-		151A313B592139B44DAB26F71C161B38 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				5BA5A2A07DF6C97F2ADB951C53D6E939 /* Classes */,
-			);
-			name = ios;
-			path = ios;
 			sourceTree = "<group>";
 		};
 		152AE9FB846324DDD67686471B5B81D8 /* Support Files */ = {
@@ -194,31 +177,22 @@
 			path = "../../../../Pods/Target Support Files/audioplayers";
 			sourceTree = "<group>";
 		};
-		21DD8365A736022821F544FB8B618FDF /* source */ = {
+		1915F334BCBDBB31A35E8496A14FD933 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				0EBF2C38205DCB70AE67D98CE35210BF /* langaw */,
+				C0137AF865EDBC11006A033996A065FF /* langaw-game */,
 			);
 			name = source;
 			path = source;
 			sourceTree = "<group>";
 		};
-		303DAD5CE99D26E4E59D78E8F604E2CF /* source */ = {
+		245355C46CE5AD28BDFC3239F89378D3 /* path_provider */ = {
 			isa = PBXGroup;
 			children = (
-				DF5748C6675949CA14021E6035BD9692 /* langaw */,
+				439469B0EEBDB3B466F5D1A00552E38D /* ios */,
 			);
-			name = source;
-			path = source;
-			sourceTree = "<group>";
-		};
-		34CDDA6A6E3A59AFD033BE9E4EB2602C /* audioplayers */ = {
-			isa = PBXGroup;
-			children = (
-				151A313B592139B44DAB26F71C161B38 /* ios */,
-			);
-			name = audioplayers;
-			path = audioplayers;
+			name = path_provider;
+			path = path_provider;
 			sourceTree = "<group>";
 		};
 		38F74E23E4A209493D56514C9A42D05D /* .. */ = {
@@ -250,6 +224,33 @@
 			path = "../../../../Pods/Target Support Files/path_provider";
 			sourceTree = "<group>";
 		};
+		439469B0EEBDB3B466F5D1A00552E38D /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				0E5ABFF4A5C32036B9297FA1C4C6FC50 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		4B3820DC14A8DDDF0BF4AD777FE31EF6 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				710BEB7B45994A140E4B767A0F2DB6D6 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		4D5096E55421A9ADC2AAD440764E7EF3 /* langaw-game */ = {
+			isa = PBXGroup;
+			children = (
+				882A2080828E542640C7AC29D0BFD1C6 /* ios */,
+			);
+			name = "langaw-game";
+			path = "langaw-game";
+			sourceTree = "<group>";
+		};
 		5795EB6D730104B915CE49BB093D09C0 /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,16 +262,6 @@
 			path = ../.symlinks/flutter/ios;
 			sourceTree = "<group>";
 		};
-		5BA5A2A07DF6C97F2ADB951C53D6E939 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				ED6B6C1D357A0127FC043B8F902161C1 /* AudioplayersPlugin.h */,
-				FA27928BEC18C36B39FB600D0B80353F /* AudioplayersPlugin.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		5EAEAD73B167A8FF0A562DBC671BC62B /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +271,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		5ECBDC161D2274872A5FCCBDD7460F61 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				245355C46CE5AD28BDFC3239F89378D3 /* path_provider */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
 		6002AEE5F6E1A59D9E1E533BFA4D5622 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +287,15 @@
 				9E4C1625B151F3BAF1B34C2A05131C56 /* LICENSE */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		640BCCA8051C33ED4E97FF8DE5DBDE4C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				13A73D3E1D59850694EC59CD6F4418E4 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		6CEBA27E09616B3C3069CC80448CF679 /* .. */ = {
@@ -315,13 +324,14 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		79249D4B4F2C08F1A3158E8E67F28F39 /* ios */ = {
+		710BEB7B45994A140E4B767A0F2DB6D6 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CFAAB763C2ABF8C0557164CB1DAD9729 /* .symlinks */,
+				22B96DE1B75CDFEA8617E37CF1BB3231 /* AudioplayersPlugin.h */,
+				F4786F86DD517221DE95B5254AE85A33 /* AudioplayersPlugin.m */,
 			);
-			name = ios;
-			path = ios;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7D50B23ED0221F1EA525E06B9E458A42 /* .. */ = {
@@ -352,6 +362,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		882A2080828E542640C7AC29D0BFD1C6 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				E12055576AB9566D6E8D565832AFFA01 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		8837ED71ABACA0D51D39F8A9D0EA9396 /* audioplayers */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,22 +382,13 @@
 			path = ../.symlinks/plugins/audioplayers/ios;
 			sourceTree = "<group>";
 		};
-		97E14D3FB1E3E2FF673BC0E4A6903CC8 /* plugins */ = {
+		8FB6FA41B055721F1E1B5474360B7176 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				069DBF672DAA665D908894E95E9AD56A /* path_provider */,
+				4D5096E55421A9ADC2AAD440764E7EF3 /* langaw-game */,
 			);
-			name = plugins;
-			path = plugins;
-			sourceTree = "<group>";
-		};
-		9B97FA762BA6C812CF069977E100C190 /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				34CDDA6A6E3A59AFD033BE9E4EB2602C /* audioplayers */,
-			);
-			name = plugins;
-			path = plugins;
+			name = source;
+			path = source;
 			sourceTree = "<group>";
 		};
 		9DAB91E9C78CE3F3163189093B8D344A /* Support Files */ = {
@@ -399,16 +409,6 @@
 			path = "../../../../../../../development/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.2.0/ios";
 			sourceTree = "<group>";
 		};
-		A384CE5D6694E7CB6C43666CB7B30036 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				01C815C7298F9DDAF83B71B63E1B8444 /* PathProviderPlugin.h */,
-				97B4A3FD7E7F0E45965C46DC32ED1B5B /* PathProviderPlugin.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		A4DB66096F7158383C4B4D098AAA2011 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +416,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		A50CEFF4D14E3EBA7BF7571B015B5D3E /* audioplayers */ = {
+			isa = PBXGroup;
+			children = (
+				4B3820DC14A8DDDF0BF4AD777FE31EF6 /* ios */,
+			);
+			name = audioplayers;
+			path = audioplayers;
 			sourceTree = "<group>";
 		};
 		A65ED5B84FE90707F31239E15B81C6F3 /* .. */ = {
@@ -430,7 +439,7 @@
 		ACC982823C6D375F693BCDA4776F8E20 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				21DD8365A736022821F544FB8B618FDF /* source */,
+				1915F334BCBDBB31A35E8496A14FD933 /* source */,
 			);
 			name = ..;
 			path = ..;
@@ -443,6 +452,15 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C0137AF865EDBC11006A033996A065FF /* langaw-game */ = {
+			isa = PBXGroup;
+			children = (
+				640BCCA8051C33ED4E97FF8DE5DBDE4C /* ios */,
+			);
+			name = "langaw-game";
+			path = "langaw-game";
 			sourceTree = "<group>";
 		};
 		C6D60ECFE39B04C91925032537D40EA8 /* .. */ = {
@@ -474,15 +492,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		CFAAB763C2ABF8C0557164CB1DAD9729 /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				97E14D3FB1E3E2FF673BC0E4A6903CC8 /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
 		D20A5A74CE43280D474EEC03A0B84DB1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,15 +509,6 @@
 			);
 			name = ..;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		D6A704E7967AE91FFE80B8711260320C /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				0E9D30DF2B41CDE3ABBD02043F70D853 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -546,28 +546,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF5748C6675949CA14021E6035BD9692 /* langaw */ = {
+		E12055576AB9566D6E8D565832AFFA01 /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				79249D4B4F2C08F1A3158E8E67F28F39 /* ios */,
+				5ECBDC161D2274872A5FCCBDD7460F61 /* plugins */,
 			);
-			name = langaw;
-			path = langaw;
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
-		E67F6AA4EE0CEE067D63908736A89E76 /* ios */ = {
+		EED498E85E639A3E4780DEEEDB8757CE /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-				A384CE5D6694E7CB6C43666CB7B30036 /* Classes */,
+				A50CEFF4D14E3EBA7BF7571B015B5D3E /* audioplayers */,
 			);
-			name = ios;
-			path = ios;
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		F3ACADC3A380481EE2540CCD01EAFF90 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				303DAD5CE99D26E4E59D78E8F604E2CF /* source */,
+				8FB6FA41B055721F1E1B5474360B7176 /* source */,
 			);
 			name = ..;
 			path = ..;

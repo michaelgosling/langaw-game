@@ -11,10 +11,7 @@ class Fly {
   Sprite deadSprite;
   double flyingSpriteIndex = 0;
 
-  Fly(this.game, double x, double y) {
-    flyRect = Rect.fromLTWH(x, y, game.tileSize, game.tileSize);
-  }
-
+  Fly(this.game);
 
   void render(Canvas c) {
     if (isDead) deadSprite.renderRect(c, flyRect.inflate(2));
